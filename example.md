@@ -18,13 +18,13 @@ nbformat: 4
 nbformat_minor: 5
 ---
 
-+++ { id="9b818e95-48f7-4dd3-b0fd-9f3e91f63d6b" }
++++ { "id": "9b818e95-48f7-4dd3-b0fd-9f3e91f63d6b" }
 
 # An Example Notebook
 
 This is an example notebook to help describe the jupyter text-based notebook format that was developed during the [Juptyer Notebook Format Community Workshop](https://blog.jupyter.org/jupyter-community-workshop-the-notebook-file-format-8133ed606118) in Massy, Feb 2023. This proposal will be formalized in a [JEP](https://github.com/jupyter/enhancement_proposals).
 
-+++ { id="3bb109c4-dbb4-43f5-aa1c-bb9c1f010d7b" }
++++ { "id": "3bb109c4-dbb4-43f5-aa1c-bb9c1f010d7b" }
 The notebook is intented to include all major elements being considered in the proposal, including:
 
 - Markdown content split accross multiple cells
@@ -42,7 +42,7 @@ The notebook is intented to include all major elements being considered in the p
 This is the content of a RAW cell
 ```
 
-+++ { id="fa415560-f20c-4726-ad58-5c90002395fd", "slideshow": { "slide_type": "slide" }, "tags": ["method"] }
++++ { "id":"fa415560-f20c-4726-ad58-5c90002395fd", "slideshow": { "slide_type": "slide" }, "tags": ["method"] }
 
 ## Attachments
 
