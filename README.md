@@ -8,3 +8,9 @@ This repo contains a minimal example of a Juptyer notebook in `.ipynb` format:
 Alongside the same notebook in a the proposed new text based format: [example.md](/example.md)
 
 More details on the proposal an be found [in the hackmd working document](https://hackmd.io/CmAhY_3tRK6ge4tqANflTg?view) and on the [Jupyter Enhancement Proposal repository](https://github.com/jupyter/enhancement_proposals)
+
+## Questions
+
+- should cell id's be kept consistently when present? even in markdown, thematic breasks will have to be for successful roundtrips to clients
+- where whould top level fields on outputs go? in the working doc they are currently in yaml, but thisis in consistent, tried to be consistent in this example
+- we should include the `metadata:` top level fields in cell metadata, or as we ok with metadata being unpacked into yaml and other top level field in the first line?
